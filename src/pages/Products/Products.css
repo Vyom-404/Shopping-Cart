@@ -1,0 +1,42 @@
+.products-page {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.products-header .eyebrow {
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  color: #2563eb;
+}
+
+.products-grid-layout {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: minmax(240px, 280px) minmax(0, 1fr);
+  align-items: start;
+}
+
+.products-content {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.results-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: #334155;
+}
+
+@media (max-width: 980px) {
+  .products-grid-layout {
+    grid-template-columns: 1fr;
+  }
+}

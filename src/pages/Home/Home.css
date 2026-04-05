@@ -1,0 +1,90 @@
+.home-page {
+  display: grid;
+  gap: 2rem;
+}
+
+.home-hero {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(135deg, #3b82f6, #0ea5e9);
+  color: #ffffff;
+}
+
+.home-hero h1 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  margin: 0.5rem 0 1rem;
+  line-height: 1.05;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 999px;
+  background: #fff;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.hero-pill {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 1.25rem;
+}
+
+.hero-pill p {
+  margin: 0;
+  color: #dbeafe;
+}
+
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.pill-list span {
+  background: rgba(255, 255, 255, 0.18);
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+}
+
+.home-browse .section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.home-grid {
+  margin-top: 1rem;
+}
+
+.error-box {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+@media (max-width: 900px) {
+  .home-hero {
+    padding: 1.5rem;
+  }
+}
