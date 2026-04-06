@@ -27,7 +27,7 @@
   border-radius: 1.5rem;
   display: grid;
   place-items: center;
-  background: #f8fafc;
+  background: var(--surface-strong);
   padding: 1rem;
 }
 
@@ -49,8 +49,8 @@
 .category-tag {
   display: inline-flex;
   padding: 0.5rem 0.8rem;
-  background: #e0f2fe;
-  color: #0369a1;
+  background: rgba(59, 130, 246, 0.16);
+  color: #2563eb;
   border-radius: 999px;
   text-transform: capitalize;
   font-size: 0.9rem;
@@ -77,14 +77,14 @@
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: #e2e8f0;
+  background: rgba(148, 163, 184, 0.16);
   padding: 0.6rem 0.8rem;
   border-radius: 999px;
 }
 
 .details-summary p {
   margin: 0;
-  color: #475569;
+  color: var(--muted);
   line-height: 1.8;
 }
 
@@ -112,9 +112,9 @@
 }
 
 .secondary-btn {
-  background: #f8fafc;
-  color: #0f172a;
-  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: var(--surface-strong);
+  color: var(--text);
+  border: 1px solid var(--border);
 }
 
 .secondary-btn .active {

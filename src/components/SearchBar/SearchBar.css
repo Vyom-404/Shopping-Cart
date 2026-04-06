@@ -9,7 +9,7 @@
 }
 
 .search-icon {
-  color: #64748b;
+  color: var(--muted);
 }
 
 .search-bar input {
@@ -17,5 +17,11 @@
   outline: none;
   width: 100%;
   font-size: 1rem;
-  color: #0f172a;
+  background: transparent;
+  color: var(--text);
+}
+
+.search-bar input::placeholder {
+  color: var(--muted);
+  opacity: 1;
 }

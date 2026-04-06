@@ -18,7 +18,7 @@
   min-height: 240px;
   display: grid;
   place-items: center;
-  background: #f8fafc;
+  background: var(--surface-strong);
   padding: 1rem;
 }
 
@@ -36,8 +36,8 @@
 .product-badge {
   display: inline-flex;
   padding: 0.35rem 0.6rem;
-  background: #e2e8f0;
-  color: #334155;
+  background: rgba(148, 163, 184, 0.16);
+  color: var(--text);
   border-radius: 999px;
   font-size: 0.8rem;
   text-transform: capitalize;
@@ -45,7 +45,7 @@
 }
 
 .product-title {
-  color: #0f172a;
+  color: var(--text);
   text-decoration: none;
   font-weight: 700;
   font-size: 1rem;
@@ -56,7 +56,7 @@
   display: flex;
   justify-content: space-between;
   gap: 0.5rem;
-  color: #475569;
+  color: var(--muted);
   font-size: 0.95rem;
   align-items: center;
 }
@@ -94,9 +94,9 @@
 }
 
 .secondary-btn {
-  background: #f8fafc;
-  color: #0f172a;
-  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: var(--surface-strong);
+  color: var(--text);
+  border: 1px solid var(--border);
 }
 
 .secondary-btn .active {
